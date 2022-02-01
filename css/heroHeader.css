@@ -1,0 +1,34 @@
+header{
+    height:100vh;
+    display: flex;
+    position: relative;
+    background-image: url("../images/heroBanner.png");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+header nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+header .tilteCotainer{
+    width: 70%;
+}
+header h1{
+    font-size: 5vw;
+    font-weight: 700;
+}
+header .traiCasser{
+    margin-left: 50px;
+    margin-top: 20px;
+    width:20vw;
+	height:6px;
+	background:black;
+	-webkit-transform:skew(30deg);
+	-moz-transform:skew(30deg);
+	-o-transform:skew(30deg);
+	tranform:skew(30deg);
+}
