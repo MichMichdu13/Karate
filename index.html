@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Karaté Kyokai Bonne</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/heroHeader.css">
-    <link rel="stylesheet" href="css/info.css">
-    <link rel="stylesheet" href="css/sectionImg.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/heroHeader.css" />
+    <link rel="stylesheet" href="css/info.css" />
+    <link rel="stylesheet" href="css/sectionImg.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/slider.css">
 </head>
+
 <body>
-
-
     <header>
         <nav>
             <div class="circleLogo">
-                <img src="images/logoKKB.png" alt="logo_karate_bonne">
+                <img src="images/logoKKB.png" alt="logo_karate_bonne" />
             </div>
         </nav>
         <div class="tilteCotainer">
@@ -27,32 +28,37 @@
         </div>
     </header>
 
-
     <section class="information">
-
         <div class="resumer">
             <p>
-                Le club <span>Karaté Kyokai Bonne</span> a été fondé en 2008 après quelques années passés au sein de l'APE de Bonne.
-                L'association a pour but de développer la pratique du karaté traditionnel, style <span>Shotokan</span> (karaté do).
+                Le club <span>Karaté Kyokai Bonne</span> a été fondé en 2008 après
+                quelques années passés au sein de l'APE de Bonne. L'association a pour
+                but de développer la pratique du karaté traditionnel, style
+                <span>Shotokan</span> (karaté do).
             </p>
             <p>
-                La pratique <span>des arts martiaux</span> est une excellente activité sportive et les contre-indications sont peu nombreuses.
-                <span>Le karaté, plus qu’un sport, est un état d’esprit</span>, un art martial, la « voie de la main nue ».
+                La pratique <span>des arts martiaux</span> est une excellente activité
+                sportive et les contre-indications sont peu nombreuses.
+                <span>Le karaté, plus qu’un sport, est un état d’esprit</span>, un art
+                martial, la « voie de la main nue ».
             </p>
             <p>
-                La pratique des katas et du combat, le kumité, permet aux adhérents de trouver un juste <span>équilibre entre l’esprit et le corps</span> par un travail de la souplesse, de la force, dans la précision et la rapidité d’exécution du mouvement.
-
+                La pratique des katas et du combat, le kumité, permet aux adhérents de
+                trouver un juste <span>équilibre entre l’esprit et le corps</span> par
+                un travail de la souplesse, de la force, dans la précision et la
+                rapidité d’exécution du mouvement.
             </p>
             <p>
-                La transmission <span>des savoirs et le respect</span> sont la philosophie de notre club depuis 18 ans.
+                La transmission <span>des savoirs et le respect</span> sont la
+                philosophie de notre club depuis 18 ans.
             </p>
             <p>
-                Nous proposons des cours à partir de 4 ans, pour des élèves débutants ou confirmés, pour les ados ou les adultes de tout niveau.
+                Nous proposons des cours à partir de 4 ans, pour des élèves débutants
+                ou confirmés, pour les ados ou les adultes de tout niveau.
             </p>
         </div>
 
         <div class="containerProfs">
-
             <div class="prof">
                 <div class="photoProf" id="photoProf1"></div>
                 <h3>Ghylaine Latron</h3>
@@ -60,19 +66,49 @@
                 <p>5ème DAN</p>
             </div>
 
-
             <div class="prof">
                 <div class="photoProf" id="photoProf2"></div>
                 <h3>Julien Massonnet</h3>
                 <div class="traiCasser"></div>
                 <p>3ème DAN</p>
             </div>
-
         </div>
-
     </section>
 
     <section class="sectionImg">
+        <h3>Photos Du Club</h3>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./images/imgSlider/img1.jpg" style="width: 100%" />
+
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./images/imgSlider/img2.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./images/imgSlider/img3.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+                <img src="./images/imgSlider/img2.jpg" style="width: 100%" />
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <!-- The dots/circles -->
+            <div class="dotContainer" style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            
+        </div>
+        <br />
 
     </section>
 
@@ -80,38 +116,38 @@
         <h3>Nous Contacter</h3>
         <div class="contactInfo">
             <div class="contactLigne">
-                <img src="images/icons/phoneBordeaux.png" alt="">
+                <img src="images/icons/phoneBordeaux.png" alt="" />
                 <p>Telephone: XXXXXXXXXX</p>
             </div>
             <div class="contactLigne">
-                <img src="images/icons/emailBordeaux.png" alt="">
+                <img src="images/icons/emailBordeaux.png" alt="" />
                 <p>Email: hhhhh@gmail.com</p>
             </div>
             <div class="contactLigne">
-                <img src="images/icons/placeBordeaux.png" alt="">
+                <img src="images/icons/placeBordeaux.png" alt="" />
                 <p>Adresse: cccccccccccccc 74380 BONNE</p>
             </div>
 
             <div class="reseauxContainer">
                 <a href="">
-                    <img src="images/icons/facebookBordeaux.png" alt="Facebook">
+                    <img src="images/icons/facebookBordeaux.png" alt="Facebook" />
                 </a>
                 <a href="">
-                    <img src="images/icons/instaBordeaux.png" alt="Instagram">
+                    <img src="images/icons/instaBordeaux.png" alt="Instagram" />
                 </a>
-
             </div>
         </div>
     </section>
 
     <footer>
         <div class="circleLogo">
-            <img src="images/logoKKB.png" alt="logo_karate_bonne">
+            <img src="images/logoKKB.png" alt="logo_karate_bonne" />
         </div>
         <div class="reseauxContainer">
-            <a href=""><img src="images/icons/facebookBlanc.png" alt="Facebook"></a>
-            <a href=""><img src="images/icons/instaBlanc.png" alt="Instagram"></a>
+            <a href=""><img src="images/icons/facebookBlanc.png" alt="Facebook" /></a>
+            <a href=""><img src="images/icons/instaBlanc.png" alt="Instagram" /></a>
         </div>
     </footer>
 </body>
+<script type="text/javascript" src="./js/slider.js"></script>
 </html>

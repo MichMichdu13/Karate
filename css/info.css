@@ -39,12 +39,19 @@
     margin: auto;
 }
 
+#photoProf1{
+    background-image: url("../images/imgProf/ghylaine.jpg");
+}
+#photoProf2{
+    background-image: url("../images/imgProf/julien.png");
+}
 .information .containerProfs .prof .photoProf{
     width: 250px ;
     height: 250px;
-    background-color: white;
     border-radius: 50%;
     margin: 30px;
+    background-position: center;
+    background-size: cover;
 }
 
 .information .containerProfs .prof h3{
@@ -71,3 +78,60 @@
 	-o-transform:skew(30deg);
 	tranform:skew(30deg);
 }
+ @media screen and (max-width: 1024px){ 
+    .information .resumer{
+        width: 80%;
+        margin: auto;
+    
+    }
+    .information .resumer p{
+        font-size: 20px;
+    }
+
+    .information .containerProfs{
+        width: 80%;
+        margin-bottom:50px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .information .containerProfs .prof{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 250px;
+        margin: 0;
+    }
+    
+    .information .containerProfs .prof .photoProf{
+        width: 150px ;
+        height: 150px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    
+    .information .containerProfs .prof h3{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        margin: 10px;
+    }
+    .information .containerProfs .prof p{
+        margin-top: 20px;
+        font-weight: 200;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .information .containerProfs .prof .traiCasser{
+        margin-left: 50px;
+        margin: 5px;
+        width:180px;
+        height:4px;
+        background:#6b0202;
+        -webkit-transform:skew(30deg);
+        -moz-transform:skew(30deg);
+        -o-transform:skew(30deg);
+        tranform:skew(30deg);
+    }
+} 
