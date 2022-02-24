@@ -35,7 +35,8 @@
 }
 .contact .contactInfo .contactLigne p{
     color: white;
-    width: 300px;
+    max-width: 300px;
+    text-align: center;
 
 }
 .contact .contactInfo .reseauxContainer{
@@ -46,4 +47,11 @@
 }
 .contact .contactInfo .reseauxContainer img{
     width: 60px;
+}
+
+@media only screen and (max-width : 420px) {
+    .contact .contactInfo{
+        width: 90%;
+    }
+
 }

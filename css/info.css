@@ -134,4 +134,10 @@
         -o-transform:skew(30deg);
         tranform:skew(30deg);
     }
+    @media only screen and (max-width : 320px) {
+        .information{
+            width: 100%;
+        }
+
+    }
 } 
